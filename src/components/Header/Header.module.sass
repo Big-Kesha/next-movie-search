@@ -1,0 +1,22 @@
+.navbar
+  background-color: orange
+  color: #fff
+  padding: 0 190px
+  max-height: 64px
+  > ul
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    li
+      a
+        display: block
+        padding: 0 10px
+        line-height: 64px
+        transition: 0.2s ease-out
+        &:hover
+          background-color: #fc7b03
+
+@media screen and (max-width: 1140px) 
+  .navbar
+    padding: 0 70px
