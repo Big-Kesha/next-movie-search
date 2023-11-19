@@ -24,7 +24,7 @@ export default function MovieList({
       {Array.isArray(moviesResponse) &&
         moviesResponse.map((movie) => (
             <Link 
-              href={`/${movie.imdbID}`} 
+              href={`/${movie.imdbID.length ? movie.imdbID : 'no_id'}`} 
               className={styles.card}
               key={movie.imdbID}
             >

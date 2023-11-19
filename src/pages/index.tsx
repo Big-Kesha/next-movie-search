@@ -1,12 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Layout from '@/components/Layout'
 import MovieList from '@/components/MovieList/MovieList'
-import { axiosInstance, movieService } from '@/services/movie-service'
+import { movieService } from '@/services/movie-service'
 import { IErrorResponse, IMovieItem } from '@/types/moviesTypes'
 import Search from '@/components/Search/Search'
-import { useSearchParams } from 'next/navigation'
-import { useRouter } from 'next/router'
 import { GetServerSideProps } from 'next/types'
 
 
