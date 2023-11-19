@@ -4,7 +4,7 @@ export default function serverError() {
   return (
     <Layout>
       <h1>
-        jopa
+        Server Error
       </h1>
     </Layout>
   );

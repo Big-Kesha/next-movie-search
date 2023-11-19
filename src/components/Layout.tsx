@@ -1,4 +1,3 @@
-import { Head } from "next/document"
 import styles from './Layout.module.sass'
 import Footer from "./Footer/Footer"
 import Header from "./Header/Header"
