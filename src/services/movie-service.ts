@@ -3,12 +3,12 @@ import axios, { AxiosResponse } from "axios";
 
 const API_URL = 'https://www.omdbapi.com/'
 
-export const API_KEY = 'ea977fb7'
+export const api_key = process.env.API_KEY
 
 export const axiosInstance = axios.create({
   baseURL: API_URL,
   params: {
-    apikey: 'ea977fb7'
+    apikey: api_key
   }
 })
 
